@@ -45,9 +45,9 @@ main .home {
 }
 
 .content p {
-    font-size: 16px;
+    font-size: 25px;
     margin-bottom: 80px;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 .home::before {

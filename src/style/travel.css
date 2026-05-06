@@ -109,10 +109,6 @@ main .home {
     transform: scale(1.4);
 }
 
-.media-icons {
-    right: 30px;
-}
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .home {
         padding: 250px 100px

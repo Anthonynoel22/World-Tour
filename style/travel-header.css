@@ -104,7 +104,7 @@ header .brand {
 }
 
 .menu-toggle {
-    background-image: url(/src/images/menu-toggle.png);
+    background-image: url(/images/menu-toggle.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -116,7 +116,7 @@ header .brand {
 
 .menu-toggle.active {
     z-index: 1000;
-    background-image: url(/src/images/close.png);
+    background-image: url(/images/close.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;

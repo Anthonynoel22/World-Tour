@@ -125,7 +125,20 @@ main .home {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1920px) {
+
+    .content h2 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+    }
+    .content p {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 1921px) {
     .home {
         width: 100%;
         padding: 350px 150px;

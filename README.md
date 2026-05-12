@@ -16,21 +16,21 @@ Site web responsive "World Tour" présentant des destinations de voyage inspiran
 ## 🌐 Structure du projet
 
 ```
-/
+/ 
 ├── index.html              # Homepage avec slider vidéo
-├── src/
-│   ├── pages/
-│   │   ├── discover.html   # Page Explorer (6 destinations)
-│   │   └── gallery.html     # Page Galerie (6 photos)
-│   ├── style/
-│   │   ├── reset.css       # Reset CSS universel
-│   │   ├── travel-header.css # Styles header/navigation
-│   │   ├── travel.css      # Styles homepage slider
-│   │   └── index.css       # Styles pages discover/gallery (partagé)
-│   ├── index.js            # JS commun : menu mobile + slider
-│   ├── images/             # Icônes menu, photos destinations/galerie
-│   └── videos/             # 4 vidéos background (beach.mp4, etc.)
-├── public/planet-earth.jpg        # Favicon
+├── pages/
+│   ├── discover.html       # Page Explorer (6 destinations)
+│   └── gallery.html        # Page Galerie (6 photos)
+├── style/
+│   ├── reset.css           # Reset CSS universel
+│   ├── travel-header.css   # Styles header/navigation
+│   ├── travel.css          # Styles homepage slider
+│   └── index.css           # Styles pages discover/gallery (partagé)
+├── index.js                # JS commun : menu mobile + slider
+├── images/                 # Icônes menu, photos destinations/galerie
+├── videos/                 # 4 vidéos background (beach.mp4, etc.)
+├── public/
+│   └── planet-earth.png    # Favicon
 └── README.md
 ```
 
@@ -38,7 +38,7 @@ Site web responsive "World Tour" présentant des destinations de voyage inspiran
 
 - **Navigation** : Cliquez sur le burger menu en mobile pour ouvrir/fermer.
 - **Slider homepage** : Cliquez sur les points de navigation pour changer de slide (transition clip-path circulaire).
-- **Pages** : Liens relatifs vers `/src/pages/discover.html` et `/src/pages/gallery.html`.
+- **Pages** : Liens relatifs vers `/pages/discover.html` et `/pages/gallery.html`.
 - **Responsive** : Testé pour mobile (<768px), tablette (768-1023px), desktop (>1023px) avec flexbox et media queries.
 
 
